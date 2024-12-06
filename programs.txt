@@ -2,3 +2,5 @@ gnome-tweak-tool
 blender
 vlc
 audacity
+idle
+arduino
