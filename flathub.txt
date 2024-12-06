@@ -19,3 +19,4 @@ com.usebottles.bottles
 io.github.ungoogled_software.ungoogled_chromium
 om.github.jeromerobert.pdfarranger
 md.obsidian.Obsidian
+flathub org.gnome.OCRFeeder
