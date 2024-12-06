@@ -1,0 +1,4 @@
+gnome-tweak-tool
+blender
+vlc
+audacity
