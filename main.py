@@ -1,4 +1,7 @@
 import subprocess
+from flathub import install_flathub, install_flathub_programs
+from ubuntu import install_programs, remove_programs
+
 
 def read_file(filename):
     with open(filename, 'r') as file:
@@ -6,35 +9,11 @@ def read_file(filename):
         programs = [line.split() for line in lines]
     return programs
 
-def install_programs(programs):
-    for program in programs:
-        cmd = f"sudo apt install -y {program[0]}"
-        subprocess.run(cmd, shell=True)
-
-def remove_programs(programs):
-    for program in programs:
-        cmd = f"sudo remove -y {program[0]}"
-        subprocess.run(cmd, shell=True)
-
-
-def install_flathub():
-    cmds = [
-        'sudo apt install flatpak',
-        'sudo apt install gnome-software-plugin-flatpak',
-        'flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo'
-    ]
-    for cmd in cmds:
-        subprocess.run(cmd, shell=True)
-        subprocess.run('shutdown -r now', shell=True)
-
-def install_flathub_programs(flathub_programs):
-    for program in flathub_programs:
-        cmd = f"flatpak install flathub {program[0]}"
-        subprocess.run(cmd, shell=True)
 
 files = ['programs.txt', 'flathub.txt']
 all_programs = read_file('programs.txt')
 all_flathub_programs = read_file('flathub.txt')
+
 
 while True:
     print('1. Install programs')
