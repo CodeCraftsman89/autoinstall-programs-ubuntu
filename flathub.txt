@@ -16,3 +16,4 @@ org.gnome.Snapshot
 com.github.tchx84.Flatseal
 com.valvesoftware.Steam
 com.usebottles.bottles
+io.github.ungoogled_software.ungoogled_chromium
