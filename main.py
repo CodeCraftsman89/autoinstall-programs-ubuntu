@@ -1,4 +1,3 @@
-import subprocess
 from flathub import install_flathub, install_flathub_programs
 from ubuntu import install_programs, remove_programs
 
