@@ -1,5 +1,6 @@
-from flathub import install_flathub, install_flathub_programs
+from flathub import install_flathub, install_flathub_programs, remove_flathub_programs
 from ubuntu import install_programs, remove_programs
+from  snap import install_snap_programs, remove_snap_programs
 
 
 def read_file(filename):
@@ -12,14 +13,17 @@ def read_file(filename):
 files = ['programs.txt', 'flathub.txt']
 all_programs = read_file('programs.txt')
 all_flathub_programs = read_file('flathub.txt')
+all_snap_programs = read_file('snap.txt')
 
 
 while True:
     print('1. Install programs')
     print('2. Remove programs')
-    print('3. Install flathub')
-    print('4. Install flathub programs')
-    print('5. Exit')
+    print('3. Install flathub programs')
+    print('4. Remove flathub programs')
+    print('5. Install snap programs')
+    print('6. Remove snap programs')
+    print('7. Exit')
     choice = input('Enter your choice: ')
     if choice == '1':
         install_programs(all_programs)
@@ -28,8 +32,12 @@ while True:
     elif choice == '3':
         install_flathub()
     elif choice == '4':
-        install_flathub_programs(all_flathub_programs)
+        remove_flathub_programs(all_flathub_programs)
     elif choice == '5':
+        install_snap_programs(all_snap_programs)
+    elif choice == '6':
+        remove_snap_programs(all_snap_programs)
+    elif choice == '7':
         break
     else:
         print('Invalid choice')

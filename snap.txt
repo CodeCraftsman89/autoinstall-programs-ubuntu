@@ -1,0 +1,4 @@
+pycharm-community --classic
+code --classic
+android-studio --classic
+gitkraken --classic
