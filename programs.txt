@@ -5,3 +5,5 @@ audacity
 idle
 arduino
 synaptic
+neofetch
+cpufetch
