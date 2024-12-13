@@ -7,3 +7,17 @@ arduino
 synaptic
 neofetch
 cpufetch
+qbittorrent
+ocrfeeder
+pdfarranger
+steam
+obs-studio
+inkscape
+freecad
+gimp
+dconf-editor
+chromium-browser
+krita
+xmind-vana
+gnome-shell-extension-manager
+gnome-shell-extensions

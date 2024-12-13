@@ -1,23 +1,6 @@
 ru.linux_gaming.PortProton
 it.mijorus.gearlever
-org.qbittorrent.qBittorrent
-org.kde.krita
-org.torproject.torbrowser-launcher
 org.onlyoffice.desktopeditors
-net.xmind.XMind
-org.gnome.Extensions
-com.mattjakeman.ExtensionManager
-ca.desrt.dconf-editor
-org.gimp.GIMP
-org.freecad.FreeCAD
-org.inkscape.Inkscape
-com.obsproject.Studio
 org.gnome.Snapshot
 com.github.tchx84.Flatseal
-com.valvesoftware.Steam
-com.usebottles.bottles
-io.github.ungoogled_software.ungoogled_chromium
-om.github.jeromerobert.pdfarranger
-md.obsidian.Obsidian
-flathub org.gnome.OCRFeeder
 flathub com.vscodium.codium
