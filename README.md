@@ -50,7 +50,17 @@ Enter your choice:
     ```bash
     sudo python3 main.py
     ```
-
+   
+## Изменение переключения языка на Alt+Shift / Change language switching to Alt+Shift
+1. Перейдите в директорию проекта если вы не в ней: / Navigate to the project directory:
+    ```bash
+    cd autoinstall-programs-ubuntu
+    ```
+2. Запустите скрипт с правами суперпользователя: / Run the script with superuser privileges:
+    ```bash
+    ./alt_shift.sh
+    ```
+   
 ## Как использовать / How to Use
 
 1. После запуска программы выберите номер действия из предложенного списка. / After launching the application, select an action number from the list.

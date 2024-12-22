@@ -10,10 +10,10 @@ def read_file(filename):
     return programs
 
 
-files = ['programs.txt', 'flathub.txt']
-all_programs = read_file('programs.txt')
-all_flathub_programs = read_file('flathub.txt')
-all_snap_programs = read_file('snap.txt')
+files = ['programs.txt', 'flathub.txt', 'snap.txt']
+all_programs = read_file(files[0])
+all_flathub_programs = read_file(files[1])
+all_snap_programs = read_file(files[2])
 
 
 if __name__ == "__main__":
