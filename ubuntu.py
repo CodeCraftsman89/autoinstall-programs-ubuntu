@@ -31,5 +31,5 @@ def remove_programs(programs):
         programs (list): A list of programs to remove.
     """
     for program in programs:
-        cmd = f"sudo remove -y {program[0]}"
+        cmd = f"sudo apt remove -y {program[0]}"
         subprocess.run(cmd, shell=True)
