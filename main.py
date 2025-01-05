@@ -19,15 +19,7 @@ all_programs = read_file(files[0])
 all_flathub_programs = read_file(files[1])
 all_snap_programs = read_file(files[2])
 
-window = Tk()
-window.title ('Авноустановщик программ для Ubuntu')
-window.geometry("500x500")
-window.resizable(False, False)
-
-label = Label(text='Выберете нужную опцию')
-label.pack()
-
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     while True:
         print('1. Install programs')
         print('2. Remove programs')
@@ -52,6 +44,4 @@ label.pack()
         elif choice == '7':
             break
         else:
-            print('Invalid choice')'''
-
-window.mainloop()
+            print('Invalid choice')
