@@ -21,6 +21,13 @@ all_snap_programs = read_file(files[2])
 
 if __name__ == "__main__":
     while True:
+        print('''                                            
+ ,-----.          ,--.  ,--.                
+'  .-.  ' ,---. ,-'  '-.`--' ,---. ,--,--,  
+|  | |  || .-. |'-.  .-',--.| .-. ||      \ 
+'  '-'  '| '-' '  |  |  |  |' '-' '|  ||  | 
+ `-----' |  |-'   `--'  `--' `---' `--''--' 
+         `--'                               ''')
         print('1. Install programs')
         print('2. Remove programs')
         print('3. Install flathub programs')
